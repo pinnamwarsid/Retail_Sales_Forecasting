@@ -1,0 +1,13 @@
+2025-02-27 21:49:28,175 - Raw data loaded successfully.
+2025-02-27 21:49:28,303 - Converted 'Order Date' and 'Ship Date' to datetime.
+2025-02-27 21:49:28,312 - Created new features: Order Year, Order Month, and Profit Margin.
+2025-02-27 21:49:28,560 - Cleaned data saved to data/processed/cleaned_sales_data.csv.
+2025-02-27 22:19:01,846 - Raw data loaded successfully.
+2025-02-27 22:19:01,964 - Converted 'Order Date' and 'Ship Date' to datetime.
+2025-02-27 22:19:01,974 - Created new features: Order Year, Order Month, and Profit Margin.
+2025-02-27 22:19:02,172 - Cleaned data saved to data/processed/cleaned_sales_data.csv.
+2025-02-27 23:36:45,360 - Raw data loaded successfully.
+2025-02-27 23:36:45,363 - Converted 'Order Date' and 'Ship Date' to datetime.
+2025-02-27 23:36:45,369 - Handled missing values using forward fill.
+2025-02-27 23:36:45,371 - Created new features: Order Year, Order Month, and Profit Margin.
+2025-02-27 23:36:45,371 - Cleaned data saved to tests/test_cleaned_data.csv.

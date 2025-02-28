@@ -1,0 +1,28 @@
+Sales Forecasting Report
+=========================
+
+1. Dataset Overview:
+- Total Records: 9994
+- Average Sales: $229.86
+- Average Profit Margin: 12.03%
+
+2. Summary Statistics:
+            Row ID   Postal Code         Sales     Quantity     Discount       Profit   Order Year  Order Month  Profit Margin
+count  9994.000000   9994.000000   9994.000000  9994.000000  9994.000000  9994.000000  9994.000000  9994.000000    9994.000000
+mean   4997.500000  55190.379428    229.858001     3.789574     0.156203    28.656896  2015.722233     7.809686       0.120314
+std    2885.163629  32063.693350    623.245101     2.225110     0.206452   234.260108     1.123555     3.284654       0.466754
+min       1.000000   1040.000000      0.444000     1.000000     0.000000 -6599.978000  2014.000000     1.000000      -2.750000
+25%    2499.250000  23223.000000     17.280000     2.000000     0.000000     1.728750  2015.000000     5.000000       0.075000
+50%    4997.500000  56430.500000     54.490000     3.000000     0.200000     8.666500  2016.000000     9.000000       0.270000
+75%    7495.750000  90008.000000    209.940000     5.000000     0.200000    29.364000  2017.000000    11.000000       0.362500
+max    9994.000000  99301.000000  22638.480000    14.000000     0.800000  8399.976000  2017.000000    12.000000       0.500000
+
+3. Key Insights:
+- Sales trends show variability over time, with noticeable peaks during certain months.
+- Profit margins vary significantly across products and regions.
+- The top-performing region in terms of sales is West.
+- The most profitable category is Technology.
+
+4. Model Performance:
+- Mean Squared Error (MSE): 388457.15
+- The model predicts sales based on features like Order Month and Profit Margin.

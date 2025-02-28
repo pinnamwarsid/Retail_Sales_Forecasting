@@ -1,0 +1,20 @@
+2025-02-27 22:02:04,566 - Cleaned data loaded successfully.
+2025-02-27 22:02:04,574 - Data split into training and testing sets.
+2025-02-27 22:02:04,590 - Model training completed.
+2025-02-27 22:02:04,592 - Model MSE: 591656.8331362047
+2025-02-27 22:02:04,594 - Model saved to models/sales_forecasting_model.pkl.
+2025-02-27 22:19:11,352 - Cleaned data loaded successfully.
+2025-02-27 22:19:11,357 - Data split into training and testing sets.
+2025-02-27 22:19:11,367 - Model training completed.
+2025-02-27 22:19:11,370 - Model MSE: 591656.8331362047
+2025-02-27 22:19:11,372 - Model saved to models/sales_forecasting_model.pkl.
+2025-02-27 22:53:33,407 - Cleaned data loaded successfully.
+2025-02-27 22:53:33,415 - Data split into training and testing sets.
+2025-02-27 22:53:33,423 - Model training completed.
+2025-02-27 22:53:33,423 - Model MSE: 591656.8331362047
+2025-02-27 22:53:33,423 - Model saved to models/sales_forecasting_model.pkl.
+2025-02-27 23:41:39,866 - Cleaned data loaded successfully.
+2025-02-27 23:41:39,876 - Data split into training and testing sets.
+2025-02-27 23:41:39,883 - Model training completed.
+2025-02-27 23:41:39,890 - Model MSE: 8.077935669463161e-28
+2025-02-27 23:41:39,892 - Model saved to tests/test_model.pkl.
