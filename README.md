@@ -20,6 +20,7 @@ This project focuses on building a Retail Sales Forecasting System that predicts
 - [Power BI Dashboard](#power-bi-dashboard)
 - [Contributing](#contributing)
 - [License](#license)
+- [Contact](#contact)
 
 ## Project Overview
 The goal of this project is to analyze retail sales data, predict future sales using machine learning, and provide actionable insights through visualizations and reports. The system is designed to help businesses make data-driven decisions by understanding sales trends, profit margins, and regional performance.
@@ -53,5 +54,61 @@ Key components include:
 - Python 3.7 or higher
 - Power BI Desktop (for the dashboard)
 
-# ... existing code
+### Installation Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/pinnamwarsid/repo.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd repo
+   ```
+3. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
+## Usage
+To run the project, execute the following command:
+```bash
+python scripts/data_preprocessing.py
+```
+This will preprocess the data and prepare it for forecasting.
+
+## Project Structure
+```
+Retail_Sales_Forecasting/
+│
+├── data/                     # Contains raw and processed data
+│   ├── raw/                  # Raw sales data
+│   └── processed/            # Cleaned sales data
+│
+├── logs/                     # Log files for model training and preprocessing
+│
+├── models/                   # Trained machine learning models
+│
+├── notebooks/                # Jupyter notebooks for data analysis and modeling
+│
+├── powerbi_dashboard/        # Power BI dashboard files
+│
+├── reports/                  # Generated reports and visualizations
+│
+├── scripts/                  # Python scripts for data processing and forecasting
+│
+├── tests/                    # Unit tests for the project
+│
+├── requirements.txt          # Python package dependencies
+└── README.md                 # Project documentation
+
+## Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Submit a pull request with a description of your changes.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+For any questions or support, please reach out to:
+- Pinnamwar Sai Siddanth - pinnamwarsid@gmail.com
