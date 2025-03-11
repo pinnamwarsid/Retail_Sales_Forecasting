@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar with predefined questions -->
+        <div class="sidebar">
+            <h3>Quick Questions</h3>
+            <ul>
+                <li onclick="sendPredefinedMessage('What is the total sales?')">Total Sales</li>
+                <li onclick="sendPredefinedMessage('What are the predicted sales for next month?')">Next Month's Sales</li>
+                <li onclick="sendPredefinedMessage('What is the average sales per transaction?')">Average Sales</li>
+                <li onclick="sendPredefinedMessage('What is the average sales per product?')">Average Sales per Product</li>
+                <li onclick="sendPredefinedMessage('What is the best selling product?')">Best Selling Product</li>
+                <li onclick="sendPredefinedMessage('What is the lowest selling product?')">Lowest Selling Product</li>
+                <li onclick="sendPredefinedMessage('What is the highest selling region?')">Highest Selling Region</li>
+                <li onclick="sendPredefinedMessage('What is the lowest selling region?')">Lowest Selling Region</li>
+                <li onclick="sendPredefinedMessage('How accurate is the model?')">Model Accuracy</li>
+                <li onclick="sendPredefinedMessage('What is this project about?')">About Project</li>
+                <li onclick="sendPredefinedMessage('What are the requirements?')">Project Requirements</li>
+                <li onclick="sendPredefinedMessage('What reports are available?')">Available Reports</li>
+                <li onclick="sendPredefinedMessage('How much data is there?')">Data Statistics</li>
+            </ul>
+        </div>
+
+        <!-- Main chat area -->
+        <div class="chat-container">
+            <h2>Sales Forecasting Chatbot</h2>
+            <div id="chat-box"></div>
+            <input type="text" id="user-input" placeholder="Ask me anything..." />
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script>
+        // Function to send predefined messages
+        function sendPredefinedMessage(message) {
+            document.getElementById("user-input").value = message;
+            sendMessage();
+        }
+
+        // Function to send user input to the backend
+        function sendMessage() {
+            let userInput = document.getElementById("user-input").value;
+            if (!userInput.trim()) return; // Prevent empty messages
+
+            // Display user message in the chat box
+            document.getElementById("chat-box").innerHTML += `<p><strong>You:</strong> ${userInput}</p>`;
+
+            // Send the message to the Flask backend
+            fetch("/chat", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ message: userInput })
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Display bot response in the chat box
+                document.getElementById("chat-box").innerHTML += `<p><strong>Bot:</strong> ${data.response}</p>`;
+                document.getElementById("chat-box").scrollTop = document.getElementById("chat-box").scrollHeight; // Auto-scroll
+            });
+
+            // Clear the input field
+            document.getElementById("user-input").value = "";
+        }
+    </script>
+</body>
+</html>

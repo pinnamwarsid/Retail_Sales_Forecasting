@@ -41,12 +41,13 @@ Key components include:
 - Train a forecasting model to predict sales based on features like Order Month and Profit Margin.
 - Evaluate model performance using metrics like Mean Squared Error (MSE) and R-squared.
 
+### Reporting:
+- Generate PDF reports summarizing insights, model performance, and key statistics from the dataset.
+- Key insights include sales trends, profit margins, and top-performing regions and categories.
+
 ### Power BI Dashboard:
 - Visualize sales trends, profit margins, and regional performance.
 - Compare actual vs. predicted sales.
-
-### Reporting:
-- Generate text-based and PDF reports summarizing insights and model performance.
 
 ## Installation
 
@@ -74,6 +75,11 @@ To run the project, execute the following command:
 python scripts/data_preprocessing.py
 ```
 This will preprocess the data and prepare it for forecasting.
+
+To generate a sales forecasting report, run:
+```bash
+python scripts/generate_report.py
+```
 
 ## Project Structure
 ```

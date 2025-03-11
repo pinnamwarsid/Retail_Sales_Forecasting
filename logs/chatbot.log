@@ -1,0 +1,139 @@
+2025-03-09 22:17:39,151 - Data files loaded successfully.
+2025-03-09 22:18:12,633 - Received query: how accurate is the model?
+2025-03-09 22:18:12,633 - Model evaluation query received
+2025-03-09 22:28:08,480 - Received query: what is next month's sales forecast?
+2025-03-09 22:28:08,483 - Forecast query received
+2025-03-09 22:28:08,493 - Forecasted Sales Total: $2,254,832.52
+2025-03-09 22:28:21,784 - Received query: how accurate is the model?
+2025-03-09 22:28:21,785 - Model evaluation query received
+2025-03-09 22:28:37,212 - Received query: what are total sales
+2025-03-09 22:29:25,925 - Received query: "what is the total sales?
+2025-03-09 22:29:36,182 - Received query: tell me about this project
+2025-03-09 22:29:52,163 - Received query: tell me what you know
+2025-03-09 22:30:08,497 - Received query: "show me the future sales trends.
+2025-03-09 22:30:23,870 - Received query: what is the model's mean squared error?"
+2025-03-09 22:31:38,658 - Received query: explain sales forecasting in simple words."
+2025-03-09 22:31:38,658 - Forecast query received
+2025-03-09 22:31:38,658 - Forecasted Sales Total: $2,254,832.52
+2025-03-09 22:33:24,216 - Received query: "tell me something interesting."
+2025-03-09 22:41:03,933 - Received query: what is the top product category?"
+2025-03-09 23:00:33,429 - Data files loaded successfully.
+2025-03-09 23:01:56,198 - Received query: how accurate is the model?"
+2025-03-09 23:03:16,974 - Received query: lowest selling region
+2025-03-09 23:03:48,594 - Received query: best selling product
+2025-03-09 23:04:05,835 - Received query: best-selling product category
+2025-03-09 23:04:30,431 - Received query: predicted total sales for next month
+2025-03-09 23:04:47,123 - Received query: total sales for the next month
+2025-03-09 23:06:22,345 - Received query: total sales
+2025-03-09 23:06:43,221 - Received query: average sales
+2025-03-09 23:07:49,331 - Received query: project details
+2025-03-09 23:13:31,234 - Data files loaded successfully.
+2025-03-09 23:16:42,318 - Received query: what is total sales?"
+2025-03-09 23:16:50,971 - Received query: "what is the average sales per transaction?"
+2025-03-09 23:16:57,988 - Received query: what is the average sales per product?"
+2025-03-09 23:17:08,178 - Received query: "which product has the lowest sales?"
+2025-03-09 23:17:21,338 - Received query: "what is next month's sales forecast?"
+2025-03-09 23:17:21,338 - Forecast query received
+2025-03-09 23:17:35,526 - Received query: "how accurate is the model?"
+2025-03-09 23:17:35,526 - Model evaluation query received
+2025-03-09 23:17:44,225 - Received query: "which region has the highest sales?"
+2025-03-09 23:17:53,580 - Received query:  "what is this project about?"
+2025-03-09 23:18:05,638 - Received query: "which is the worst-selling product?"
+2025-03-09 23:18:16,610 - Received query: tell me about a category that doesn't exist."
+2025-03-09 23:22:17,733 - Data files loaded successfully.
+2025-03-09 23:24:23,451 - Received query: what is total sales?
+2025-03-09 23:25:30,245 - Received query: what is the best-selling product?
+2025-03-09 23:27:00,428 - Received query: top product
+2025-03-09 23:27:41,167 - Received query: top product
+2025-03-09 23:27:47,136 - Received query: best selling product
+2025-03-09 23:28:39,590 - Received query: what is the best-selling product?
+2025-03-09 23:28:52,087 - Received query: best selling product
+2025-03-09 23:30:28,073 - Data files loaded successfully.
+2025-03-09 23:30:49,060 - Received query: best selling product
+2025-03-09 23:31:01,090 - Received query:  "best selling product"
+2025-03-09 23:31:18,827 - Received query: "what is the lowest-selling product?"
+2025-03-09 23:31:26,220 - Received query: what is the lowest-selling product?
+2025-03-09 23:32:30,478 - Received query: "which region has the highest sales?"
+2025-03-09 23:45:29,485 - Data files loaded successfully.
+2025-03-09 23:48:16,200 - Received query: total sales
+2025-03-09 23:48:25,486 - Received query: avarage sales
+2025-03-09 23:48:39,512 - Received query: how accurate is the model
+2025-03-09 23:48:39,512 - Model evaluation query received
+2025-03-09 23:48:39,515 - Model Performance - MSE: 388457.15, R² Score: -0.00
+2025-03-09 23:48:51,919 - Received query: lowest selling region
+2025-03-09 23:49:03,589 - Received query: highest selling region"
+2025-03-09 23:49:18,212 - Received query: lowest selling product
+2025-03-09 23:49:27,765 - Received query: highest selling product
+2025-03-09 23:49:45,726 - Received query: top product
+2025-03-09 23:50:00,109 - Received query: average sales per product
+2025-03-09 23:50:00,113 - Calculated average sales per product: $1,241.73
+2025-03-09 23:50:12,403 - Received query: average sales"
+2025-03-09 23:50:21,685 - Received query: "next month's sales
+2025-03-09 23:50:21,685 - Forecast query received
+2025-03-09 23:50:21,685 - Calculated predicted sales for next month: $2,254,832.52
+2025-03-09 23:50:30,070 - Received query: total sales"
+2025-03-09 23:50:48,509 - Received query: about project
+2025-03-09 23:54:05,563 - Received query: about project
+2025-03-09 23:55:35,446 - Received query: what are the requirements
+2025-03-09 23:56:46,662 - Received query: about project
+2025-03-09 23:57:06,588 - Received query: explain about project
+2025-03-09 23:57:17,967 - Received query: explain about project
+2025-03-09 23:58:43,679 - Received query: what are the requirements
+2025-03-10 00:00:20,656 - Received query: what are the requirements
+2025-03-10 00:00:30,619 - Received query:  about project
+2025-03-10 00:00:48,897 - Received query:  about project
+2025-03-10 00:01:28,699 - Received query:  about project
+2025-03-10 00:02:54,064 - Received query: requirements"
+2025-03-10 00:03:40,258 - Received query: about project
+2025-03-10 00:05:05,306 - Received query: requirements"
+2025-03-10 00:05:35,358 - Received query: data statistics
+2025-03-10 00:06:55,391 - Received query: "what's required?"
+2025-03-10 00:08:31,100 - Received query: "what's required?"
+2025-03-10 00:19:40,596 - Data files loaded successfully.
+2025-03-10 00:20:03,921 - Received query: "top product
+2025-03-10 00:20:09,479 - Received query: "what's required?"
+2025-03-10 00:20:16,791 - Received query:  about project
+2025-03-10 00:20:30,597 - Received query: least selling product"
+2025-03-10 00:20:40,668 - Received query: best product
+2025-03-10 00:21:36,872 - Received query:  least selling product"
+2025-03-10 00:21:48,950 - Received query: best product
+2025-03-10 00:25:06,602 - Received query: best product
+2025-03-10 00:29:55,607 - Received query: best product
+2025-03-10 00:30:48,264 - Received query: avg sales
+2025-03-10 00:31:04,122 - Received query: average sales
+2025-03-10 00:33:00,342 - Received query: top product
+2025-03-10 00:33:21,450 - Received query: mean sales per product
+2025-03-10 00:33:21,453 - Calculated average sales per product: $1,241.73
+2025-03-10 00:33:36,162 - Received query: average sales"
+2025-03-10 00:34:01,814 - Received query: highest selling region"
+2025-03-10 00:34:17,434 - Received query: lowest selling region"
+2025-03-10 00:34:33,756 - Received query: what is this project about
+2025-03-10 00:34:46,512 - Received query: how much data is there"
+2025-03-10 00:35:05,671 - Received query: "requirements"
+2025-03-10 00:35:18,372 - Received query: how accurate is the model
+2025-03-10 00:35:18,372 - Model evaluation query received
+2025-03-10 00:35:18,377 - Model Performance - MSE: 388457.15, R² Score: -0.00
+2025-03-10 00:35:38,732 - Received query: average sales per product
+2025-03-10 00:35:38,735 - Calculated average sales per product: $1,241.73
+2025-03-10 00:35:56,600 - Received query: "sales forecast
+2025-03-10 00:35:56,600 - Forecast query received
+2025-03-10 00:35:56,601 - Calculated predicted sales for next month: $2,254,832.52
+2025-03-10 00:36:03,990 - Received query: total sales
+2025-03-11 22:38:32,326 - Data files loaded successfully.
+2025-03-11 22:47:51,966 - Received query: predicted sales
+2025-03-11 22:47:51,967 - Forecast query received
+2025-03-11 22:47:51,992 - Calculated predicted sales for next month: $2,254,832.52
+2025-03-11 22:48:01,667 - Received query: about project
+2025-03-11 22:57:06,363 - Received query: what is the total sales?
+2025-03-11 22:57:07,552 - Received query: what are the predicted sales for next month?
+2025-03-11 22:57:07,552 - Forecast query received
+2025-03-11 22:57:07,552 - Calculated predicted sales for next month: $2,254,832.52
+2025-03-11 22:57:10,422 - Received query: what are the requirements?
+2025-03-11 22:57:12,310 - Received query: what reports are available?
+2025-03-11 22:57:16,309 - Received query: what is this project about?
+2025-03-11 22:58:33,761 - Received query: how accurate is the model?
+2025-03-11 22:58:33,761 - Model evaluation query received
+2025-03-11 22:58:33,782 - Model Performance - MSE: 388457.15, R² Score: -0.00
+2025-03-11 22:58:34,943 - Received query: what is the lowest selling region?
+2025-03-11 22:58:35,775 - Received query: what is the highest selling region?
+2025-03-11 22:58:36,424 - Received query: what is the lowest selling product?
