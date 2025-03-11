@@ -137,3 +137,24 @@
 2025-03-11 22:58:34,943 - Received query: what is the lowest selling region?
 2025-03-11 22:58:35,775 - Received query: what is the highest selling region?
 2025-03-11 22:58:36,424 - Received query: what is the lowest selling product?
+2025-03-11 23:37:31,203 - Data files loaded successfully.
+2025-03-11 23:38:07,113 - Received query: how much data is there?
+2025-03-11 23:38:11,162 - Received query: what is the lowest selling region?
+2025-03-11 23:41:48,933 - Received query: what is the total sales?
+2025-03-11 23:41:49,902 - Received query: what are the predicted sales for next month?
+2025-03-11 23:41:49,902 - Forecast query received
+2025-03-11 23:41:49,902 - Calculated predicted sales for next month: $2,254,832.52
+2025-03-11 23:41:51,071 - Received query: what is the average sales per transaction?
+2025-03-11 23:41:52,451 - Received query: what is the average sales per product?
+2025-03-11 23:41:52,458 - Calculated average sales per product: $1,241.73
+2025-03-11 23:41:54,007 - Received query: what is the best selling product?
+2025-03-11 23:41:56,079 - Received query: what is the lowest selling product?
+2025-03-11 23:41:57,147 - Received query: what is the highest selling region?
+2025-03-11 23:41:58,743 - Received query: what is the lowest selling region?
+2025-03-11 23:41:59,795 - Received query: how accurate is the model?
+2025-03-11 23:41:59,800 - Model evaluation query received
+2025-03-11 23:41:59,802 - Model Performance - MSE: 388457.15, R² Score: -0.00
+2025-03-11 23:42:01,411 - Received query: what is this project about?
+2025-03-11 23:42:03,239 - Received query: what are the requirements?
+2025-03-11 23:42:04,274 - Received query: what reports are available?
+2025-03-11 23:42:05,972 - Received query: how much data is there?

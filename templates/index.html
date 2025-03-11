@@ -38,16 +38,14 @@
     </div>
 
     <script>
-        // Function to send predefined messages
         function sendPredefinedMessage(message) {
             document.getElementById("user-input").value = message;
             sendMessage();
         }
 
-        // Function to send user input to the backend
         function sendMessage() {
             let userInput = document.getElementById("user-input").value;
-            if (!userInput.trim()) return; // Prevent empty messages
+            if (!userInput.trim()) return;
 
             // Display user message in the chat box
             document.getElementById("chat-box").innerHTML += `<p><strong>You:</strong> ${userInput}</p>`;
@@ -60,9 +58,8 @@
             })
             .then(response => response.json())
             .then(data => {
-                // Display bot response in the chat box
                 document.getElementById("chat-box").innerHTML += `<p><strong>Bot:</strong> ${data.response}</p>`;
-                document.getElementById("chat-box").scrollTop = document.getElementById("chat-box").scrollHeight; // Auto-scroll
+                document.getElementById("chat-box").scrollTop = document.getElementById("chat-box").scrollHeight;
             });
 
             // Clear the input field
